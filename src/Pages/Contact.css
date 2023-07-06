@@ -1,0 +1,32 @@
+ #contact{
+    height: 50vh; 
+    margin: auto 0;
+    /* position: relative; */
+    background-color: rgb(17, 17, 17);
+}
+
+.contact-content{
+
+ display: flex;
+ flex-direction: column;
+ height: 100%; 
+ /* position: absolute;  */
+ /* left: 0;  */
+ /* margin: auto; */
+
+}
+
+.contact-content p{
+    font-size: 1.5rem;
+
+}
+.socials{
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    gap: 20px;
+}
+
+#contact h1{
+    font-size: 5rem;
+}

@@ -9,7 +9,7 @@
 body {
   margin: 0;
    font-family: 'Outfit', sans-serif;
-   background-color:#fff;
+   background-color:#141111;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,7 +24,7 @@ h1,h4,p,a,h3{
   margin: 0 5px;
   font-size: 1.5rem;
   text-transform: uppercase;
-  background-color: yellow;
+  background-color:cadetblue;
   color: black;
   border:1px solid black;
   font-weight: 600;

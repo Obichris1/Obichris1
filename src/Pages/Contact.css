@@ -1,15 +1,19 @@
  #contact{
-    height: 50vh; 
-    margin: auto 0;
+    height: 100vh; 
+    /* margin: auto 0; */
     /* position: relative; */
-    background-color: rgb(17, 17, 17);
+    width: 80%;
+    margin: auto;
 }
 
 .contact-content{
 
+padding-top: 13rem;
  display: flex;
  flex-direction: column;
- height: 100%; 
+ gap: 40px;
+
+ /* height: 100%;  */
  /* position: absolute;  */
  /* left: 0;  */
  /* margin: auto; */
@@ -24,9 +28,22 @@
     display: flex;
     margin: 0 auto;
     padding: 30px;
-    gap: 20px;
+    gap: 50px;
 }
 
 #contact h1{
-    font-size: 5rem;
+    font-size: 3rem;
+}
+#contact a{
+    text-decoration: underline;
+    color: cadetblue;
+}
+#contact a:hover {
+    color: white;
+    /* font-size: 1.6rem; */
+
+}
+.copyright{
+    font-size: 1rem;
+    color: grey;
 }

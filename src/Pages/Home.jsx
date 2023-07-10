@@ -3,12 +3,14 @@ import Navbar from '../Components/Navbar'
 import HeroSection from '../Components/HeroSection'
 import About from './About'
 import Contact from './Contact'
+import Project from './Project'
 const Home = () => {
   return (
     <div>
         <Navbar />
         <HeroSection />
         <About />
+        <Project />
         <Contact />
         
         

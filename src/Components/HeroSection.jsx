@@ -16,12 +16,12 @@ const HeroSection = () => {
       
 
       <div>
-        <Link to='/projects' className='btn'>
+        <a href='#projects' className='btn'>
           Projects
-        </Link>
-        <Link to='/contacts' className='btn btn-light'>
+        </a>
+        <a href='#contacts' className='btn btn-light'>
           Contacts
-        </Link>
+        </a>
         </div>
      </div>
     </div>

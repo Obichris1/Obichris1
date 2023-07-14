@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Obichris1/static/css/main.066be97f.css",
+    "main.js": "/Obichris1/static/js/main.a83f29ac.js",
+    "static/media/hero-banner.jpg": "/Obichris1/static/media/hero-banner.cf2364827d8b8a98642e.jpg",
+    "index.html": "/Obichris1/index.html",
+    "main.066be97f.css.map": "/Obichris1/static/css/main.066be97f.css.map",
+    "main.a83f29ac.js.map": "/Obichris1/static/js/main.a83f29ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.066be97f.css",
+    "static/js/main.a83f29ac.js"
+  ]
+}

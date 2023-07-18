@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.066be97f.css",
-    "main.js": "/static/js/main.ecad5c40.js",
+    "main.css": "/static/css/main.abdc9856.css",
+    "main.js": "/static/js/main.d82bc8f5.js",
+    "static/media/Shred app.png": "/static/media/Shred app.5161444faa711d6f8178.png",
     "static/media/hero-banner.jpg": "/static/media/hero-banner.cf2364827d8b8a98642e.jpg",
+    "static/media/my-insta.png": "/static/media/my-insta.922ce7b18c0fc55fe92f.png",
+    "static/media/expense.png": "/static/media/expense.7015464d522c0b65733a.png",
     "index.html": "/index.html",
-    "main.066be97f.css.map": "/static/css/main.066be97f.css.map",
-    "main.ecad5c40.js.map": "/static/js/main.ecad5c40.js.map"
+    "main.abdc9856.css.map": "/static/css/main.abdc9856.css.map",
+    "main.d82bc8f5.js.map": "/static/js/main.d82bc8f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.066be97f.css",
-    "static/js/main.ecad5c40.js"
+    "static/css/main.abdc9856.css",
+    "static/js/main.d82bc8f5.js"
   ]
 }

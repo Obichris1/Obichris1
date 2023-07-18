@@ -1,5 +1,5 @@
 #about{ 
-    height: 100vh;
+    height: 50vh;
     /* width: 100%; */
     text-align: center;
     margin: auto;
@@ -39,9 +39,14 @@
 
 @media screen and (max-width : 1040px) {
     .about-content{
-        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        width: 100%;
+        height: 50%;
         padding: 3rem 0rem;
-        text-align: left;
+        text-align: center;
         margin: auto;
         font-size: 1rem;
     }

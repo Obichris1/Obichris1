@@ -1,5 +1,5 @@
  #contact{
-    height: 100vh; 
+    height: 70vh; 
     /* margin: auto 0; */
     /* position: relative; */
     width: 80%;
@@ -46,4 +46,25 @@ padding-top: 13rem;
 .copyright{
     font-size: 1rem;
     color: grey;
+}
+
+
+@media screen and (max-width : 1040px) {
+
+    .contact-content p{
+        font-size: 1.2rem;
+    
+    }
+
+    #contact h1{
+        font-size: 2rem;
+    }
+    
+    .social-links{
+        size: 20px;
+    }
+
+    .copyright{
+        font-size: 0.5rem;
+    }
 }

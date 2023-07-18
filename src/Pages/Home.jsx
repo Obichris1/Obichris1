@@ -6,7 +6,7 @@ import Contact from './Contact'
 import Project from './Project'
 const Home = () => {
   return (
-    <div>
+    <div id='home'>
         <Navbar />
         <HeroSection />
         <About />

@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeroSection.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import HeroBanner from '../Assets/hero-banner.jpg'
 
 const HeroSection = () => {
@@ -15,13 +16,11 @@ const HeroSection = () => {
         <h1>FRONTEND DEVELOPER</h1>
       
 
-      <div>
-        <a href='#projects' className='btn'>
-          Projects
-        </a>
-        <a href='#contacts' className='btn btn-light'>
-          Contacts
-        </a>
+      <div className='buttons'>
+      <Link to='projects' spy={true} smooth={true} offset={-80} duration={500} className='btn' >Projects  </Link>
+         <Link to='contact' spy={true} smooth={true} offset={-80} duration={500} className='btn btn-light '>Contacts</Link>
+          
+        
         </div>
      </div>
     </div>

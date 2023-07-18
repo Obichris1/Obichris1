@@ -35,8 +35,28 @@ h1,h4,p,a,h3{
   color: #000;
 
 }
+
+.btn-small{
+padding: 6px 10px;
+margin: 10px 10px;
+font-size: 1.5rem;
+background-color: cadetblue;
+color: rgb(255, 252, 252);
+border: 1px solid rgb(24, 23, 23);
+font-weight: 300;
+cursor: pointer;
+display: inline-block;
+border-radius: 1.5rem;
+}
+
 .btn:hover{
   background-color: rgb(247, 242, 242);
   color: #000;
   transition:0.3s;
 }
+
+/* a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: cadetblue;
+} */

@@ -1,14 +1,14 @@
 #project{
-  height: 100vh;
+  height: 90vh;
   width: 80%;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .card-container{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3 ,1fr);
     gap: 50px;
-    margin: 10rem;
+    margin: 20rem 10rem 0 10rem;
 }
 
 .project-card{
@@ -40,4 +40,55 @@
 }
 #project p{
     /* width: 50%; */
+}
+.project-about {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.project-url{
+    font-size: 1.5rem;    
+    color: cadetblue;
+}
+
+.project-tech{
+    padding: 20px 10px;
+}
+
+.card3{
+    margin-bottom: 80px;
+}
+
+
+@media screen and (max-width : 1040px){
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project-card{
+    font-size: 1rem;
+}
+
+.project-about {
+    font-size: 1rem;
+}
+
+.project-url{
+    font-size: 1rem;    
+    color: cadetblue;
+}
+
+.project-tech{
+    padding: 10px 10px;
+
+}
+.project-tech p{
+   font-size: 1rem;  
+}
+
+
+
+
 }

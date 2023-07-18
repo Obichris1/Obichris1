@@ -7,10 +7,10 @@ const About = () => {
    <div className='about-content'>
         <p> Hi!! I'm Obinna, a passionate frontend developer dedicated to creating stunning and user-friendly websites.I thrive on turning ideas into pixel-perfect reality.
             I have a solid background in frontend development, backed by a Bachelor's degree in Computer Engineering. Over the years, I've honed my skills and gained valuable experience working on a variety of projects.</p>
-        <p>I am skilled in HTML, CSS, Bootstrap 4 & 5, JavaScript, React, Material UI.</p>
+        <p>I am skilled in HTML, CSS, Bootstrap 4 & 5, JavaScript, React.js, Material UI, Java, Servlets and JSP</p>
     </div>
   </div>
   )
-}
+} 
 
 export default About  

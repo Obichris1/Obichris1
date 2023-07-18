@@ -1,7 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
 
@@ -32,18 +33,18 @@ const Navbar = () => {
       <h1>Chukwunenye Obinna</h1>
       
       </Link> 
-    <ul className={click ? 'nav-links active' : 'nav-links'}>
+    <ul className={click ? 'nav-links active' : 'nav-links'} >
       <li>
-        <Link to='/'>Home</Link>
+        <Link to='home' spy={true} smooth={true} offset={-100} duration={500} onClick={showMenu}>Home</Link>
       </li>   
       <li>
-        <a href='#about'>About</a>
+        <Link to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={showMenu}>About</Link>
       </li>
       <li>
-        <a href='#projects'>Projects</a>
+        <Link to='projects' spy={true} smooth={true} offset={-80} duration={500} onClick={showMenu}>Projects</Link>
       </li>
       <li>
-        <a href='#contact'>Contact</a>
+        <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={showMenu}>Contact</Link>
       </li>
       </ul>       
 

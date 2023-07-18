@@ -7,6 +7,7 @@
     width: 80%;
 
 
+
 }
 
 .about-content{
@@ -16,10 +17,12 @@
     width: 100%;
     padding: 12rem 0rem;
     text-align: left;
-    /* margin: auto; */
+    margin: auto;
     font-size: 1.2rem;
-    line-height: 60px;
+    line-height: 40px;
 }
+
+
 #about p:nth-child(2){
     /* margin-left: 49rem; */
     
@@ -38,6 +41,10 @@
 
 
 @media screen and (max-width : 1040px) {
+    #about{
+        height: 100vh;
+    }
+
     .about-content{
         display: flex;
         flex-direction: column;

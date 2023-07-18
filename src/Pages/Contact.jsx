@@ -25,7 +25,7 @@ const Contact = () => {
         </div>
 
         <div className='social-links telephone'>
-        <a target='_blank' href="tel:+234812914462"><FaPhone size={35} style={{color :'#fff'}} /></a>
+        <a target='_blank' href="tel:+2348129614462"><FaPhone size={35} style={{color :'#fff'}} /></a>
         </div>
 
         </div>

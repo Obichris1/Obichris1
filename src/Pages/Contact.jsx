@@ -24,9 +24,7 @@ const Contact = () => {
         <a target='_blank' href='https://github.com/Obichris1?tab=repositories'><FaGithub size={35} style={{color :'#fff'}} /></a>
         </div>
 
-        <div className='social-links telephone'>
-        <a target='_blank' href="tel:+2348129614462"><FaPhone size={35} style={{color :'#fff'}} /></a>
-        </div>
+        
 
         </div>
         <p className='copyright'>Copyright &copy; 2023 Chukwunenye Obinna</p>        

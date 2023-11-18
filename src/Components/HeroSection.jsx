@@ -18,7 +18,7 @@ const HeroSection = () => {
 
       <div className='buttons'>
       <Link to='projects' spy={true} smooth={true} offset={-80} duration={500} className='btn' >Projects  </Link>
-         <Link to='contact' spy={true} smooth={true} offset={-80} duration={500} className='btn btn-light '>Contacts</Link>
+         <Link to='contact' spy={true} smooth={true} offset={-80} duration={500} className='btn btn-light '>Contact</Link>
           
         
         </div>

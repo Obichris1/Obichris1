@@ -46,6 +46,7 @@ const Navbar = () => {
       <li>
         <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={showMenu}>Contact</Link>
       </li>
+      
       </ul>       
 
       <div className='hamburger' onClick={showMenu}>
@@ -54,7 +55,7 @@ const Navbar = () => {
 }
         
        
-
+;
       </div>
     
  </div>

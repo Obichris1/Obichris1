@@ -1,12 +1,12 @@
 #project{
-  height: 90vh;
+  height: 100vh;
   width: 80%;
   /* margin: auto; */
 }
 
 .card-container{
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(4 ,1fr);
     gap: 50px;
     margin: 20rem 10rem 0 10rem;
 }
@@ -53,6 +53,12 @@
 
 .project-tech{
     padding: 20px 10px;
+    
+}
+
+.project-tech p {
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .card3{
@@ -66,7 +72,7 @@
     flex-direction: column;
     align-items: center; 
     justify-content: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     
 }

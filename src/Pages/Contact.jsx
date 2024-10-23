@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import {FaTwitter,FaLinkedin,FaGithub,FaPhone} from 'react-icons/fa'
-import { Link } from 'react-router-dom'
+
 
 
 const Contact = () => {

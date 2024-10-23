@@ -4,7 +4,7 @@ import HeroSection from '../Components/HeroSection'
 import About from './About'
 import Contact from './Contact'
 import Project from './Project'
-import Footer from '../Components/Footer'
+
 const Home = () => {
   return (
     <div id='home'>
@@ -13,7 +13,7 @@ const Home = () => {
         <About />
         <Project />
         <Contact />
-        {/* <Footer /> */}
+     
         
         
     </div>

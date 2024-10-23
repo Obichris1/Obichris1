@@ -3,7 +3,6 @@ import shred from '../Assets/Shred app.png'
 import shoesHive from '../Assets/ShoesHive.png'
 import myInsta from '../Assets/my-insta.png'
 import firebaseAuth from '../Assets/fire base auth app.png'
-import { FaGithub, FaLink } from 'react-icons/fa'
 import './Project.css'
 import { Link } from 'react-router-dom'
 

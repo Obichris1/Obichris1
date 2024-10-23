@@ -1,9 +1,9 @@
  #contact{
-    height: 70vh; 
+    height: 100vh; 
     /* margin: auto 0; */
     /* position: relative; */
     width: 80%;
-    margin: auto;
+    margin: auto;   
 }
 
 .contact-content{

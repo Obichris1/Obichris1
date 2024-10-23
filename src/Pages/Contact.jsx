@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import {FaTwitter,FaLinkedin,FaGithub,FaPhone} from 'react-icons/fa'
+import {FaTwitter,FaLinkedin,FaGithub} from 'react-icons/fa'
 
 
 

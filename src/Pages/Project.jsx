@@ -11,14 +11,14 @@ const Project = () => {
    <div id='projects'>
       <div className='card-container'>
 
-      <Link className='project-card' to='https://shoes-hive.vercel.app/' target='_blank'>  
+      <Link className='project-card' to='https://shoes-hive.vercel.app/' target='_blank' rel="noopener noreferrer">  
           <img src={shoesHive} alt="" height={200}/>
           <p className='project-heading'>Shoes Hive</p>
           <p className= 'project-about'>E-commerce Application</p>
         
       </Link>
 
-      <Link className='project-card' to='https://shredapp.netlify.app/' target='_blank'>  
+      <Link className='project-card' to='https://shredapp.netlify.app/' target='_blank' rel="noopener noreferrer">  
           <img src={shred} alt="" height={200}/>
           {/* <div className='card-content'> */}
           <p className='project-heading'>Shred</p>
@@ -28,7 +28,7 @@ const Project = () => {
 
       
 
-      <Link className='project-card' to='https://my-instag.netlify.app/' target='_blank'>  
+      <Link className='project-card' to='https://my-instag.netlify.app/' target='_blank' rel="noopener noreferrer">  
           <img src={myInsta} alt="" height={200}/>
           <p className='project-heading'>My Instagram</p>
           <p className= 'project-about'>Basic Instagram Clone</p>
@@ -37,7 +37,7 @@ const Project = () => {
         
       </Link>
 
-      <Link className='project-card' to='https://firebaseautheapp.netlify.app/' target='_blank'>  
+      <Link className='project-card' to='https://firebaseautheapp.netlify.app/' target='_blank' rel="noopener noreferrer">  
           <img src={firebaseAuth} alt="" />
           <p className='project-heading'>Firebase auth app</p>
           

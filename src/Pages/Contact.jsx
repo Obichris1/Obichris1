@@ -13,15 +13,15 @@ const Contact = () => {
          <hr style={{color : '#fff' }}/>
         <div className='socials'>
         <div className='social-links twitter'>
-         <a href="https://twitter.com/obichris202"><FaTwitter  size={35} style={{color :'#fff'}}/></a>
+         <a href="https://twitter.com/obichris202" target='_blank' rel="noopener noreferrer" ><FaTwitter  size={35} style={{color :'#fff'}}/></a>
         </div>
 
         <div className='social-links linkedin'>
-            <a target='_blank' href='https://www.linkedin.com/in/obinna-chukwunenye-9b98291b9/'><FaLinkedin size={35} style={{color :'#fff'}} /></a>
+            <a target='_blank' rel="noopener noreferrer" ref='https://www.linkedin.com/in/obinna-chukwunenye-9b98291b9/'><FaLinkedin size={35} style={{color :'#fff'}} /></a>
         </div>  
 
         <div className='social-links Github'>
-        <a target='_blank' href='https://github.com/Obichris1?tab=repositories'><FaGithub size={35} style={{color :'#fff'}} /></a>
+        <a target='_blank' rel="noopener noreferrer"  href='https://github.com/Obichris1?tab=repositories'><FaGithub size={35} style={{color :'#fff'}} /></a>
         </div>
 
         

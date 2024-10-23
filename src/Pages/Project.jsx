@@ -49,7 +49,7 @@ const Project = () => {
      
     </div>
           <div className='more-projects'>
-       <a target='_blank' href='https://github.com/Obichris1?tab=repositories' style={{color : '#cadetblue', fontSize : '2rem', marginTop : '2000px', textAlign : ''}}>See More Projects</a>
+       <a target='_blank' href='https://github.com/Obichris1?tab=repositories'rel="noopener noreferrer" style={{color : '#cadetblue', fontSize : '2rem', marginTop : '2000px', textAlign : ''}}>See More Projects</a>
           </div>
  </div>
   )

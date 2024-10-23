@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
 
         <div className='social-links linkedin'>
-            <a target='_blank' rel="noopener noreferrer" ref='https://www.linkedin.com/in/obinna-chukwunenye-9b98291b9/'><FaLinkedin size={35} style={{color :'#fff'}} /></a>
+            <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/obinna-chukwunenye-9b98291b9/'><FaLinkedin size={35} style={{color :'#fff'}} /></a>
         </div>  
 
         <div className='social-links Github'>

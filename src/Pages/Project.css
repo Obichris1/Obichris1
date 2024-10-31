@@ -73,6 +73,10 @@
     margin-bottom: 80px;
 }
 
+.more-projects{
+    margin-top: 70px;
+}
+
 
 @media screen and (max-width : 1040px){
 .card-container{

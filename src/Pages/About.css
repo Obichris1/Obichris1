@@ -43,6 +43,7 @@
 @media screen and (max-width : 1040px) {
     #about{
         height: 100vh;
+        margin-bottom: 80px;
     }
 
     .about-content{

@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
  <div className={color ? 'header header-bg' : 'header'}>
     <Link to='/'>
-      <h1>Chukwunenye Obinna</h1>
+      <h1>Obinna Chukwunenye</h1>
       
       </Link> 
     <ul className={click ? 'nav-links active' : 'nav-links'} >

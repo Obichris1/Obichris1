@@ -1,6 +1,8 @@
 import React from 'react'
 import shred from '../Assets/Shred app.png'
 import shoesHive from '../Assets/ShoesHive.png'
+import Dsquare from '../Assets/Dsquare.png'
+import EsoE from '../Assets/EsoE.png'
 import myInsta from '../Assets/my-insta.png'
 import firebaseAuth from '../Assets/fire base auth app.png'
 import './Project.css'
@@ -10,6 +12,20 @@ const Project = () => {
   return (
    <div id='projects'>
       <div className='card-container'>
+
+      <Link className='project-card' to='https://ibank.esoebank.com/dashboard/' target='_blank' rel="noopener noreferrer">  
+          <img src={EsoE} alt="" height={200}/>
+          <p className='project-heading'>EsoE Microfinance Bank</p>
+          <p className= 'project-about'>Banking Client portal</p>
+        
+      </Link>
+
+      <Link className='project-card' to='https://dsquare-events.vercel.app' target='_blank' rel="noopener noreferrer">  
+          <img src={Dsquare} alt="" height={200}/>
+          <p className='project-heading'>Dsquare Events Center</p>
+          <p className= 'project-about'>Events Center Application</p>
+        
+      </Link>
 
       <Link className='project-card' to='https://shoes-hive.vercel.app/' target='_blank' rel="noopener noreferrer">  
           <img src={shoesHive} alt="" height={200}/>

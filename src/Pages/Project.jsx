@@ -5,6 +5,8 @@ import Dsquare from '../Assets/Dsquare.png'
 import EsoE from '../Assets/EsoE.png'
 import myInsta from '../Assets/my-insta.png'
 import firebaseAuth from '../Assets/fire base auth app.png'
+import JoeKarter from '../Assets/joe-karter.png'
+import Fmcc from '../Assets/fmcc.png'
 import './Project.css'
 import { Link } from 'react-router-dom'
 
@@ -16,9 +18,25 @@ const Project = () => {
       <Link className='project-card' to='https://ibank.esoebank.com/dashboard/' target='_blank' rel="noopener noreferrer">  
           <img src={EsoE} alt="" height={200}/>
           <p className='project-heading'>EsoE Microfinance Bank</p>
-          <p className= 'project-about'>Banking Client portal</p>
+          <p className= 'project-about'>A self-service client application for ESO-E mfb</p>
         
       </Link>
+
+      <Link className='project-card' to='https://joe-karter-store-2d6a.vercel.app/' target='_blank' rel="noopener noreferrer">  
+          <img src={JoeKarter} alt="" height={200}/>
+          <p className='project-heading'>Joe Karter stores </p>
+          <p className= 'project-about'>e-commerce application</p>
+        
+      </Link>
+
+      <Link className='project-card' to='https://www.fmccng.com/' target='_blank' rel="noopener noreferrer">  
+          <img src={Fmcc} alt="" height={200}/>
+          <p className='project-heading'>FMCC Nigeria</p>
+          <p className= 'project-about'>Web application for FMCC consultation company</p>
+        
+      </Link>
+
+
 
       <Link className='project-card' to='https://dsquare-events.vercel.app' target='_blank' rel="noopener noreferrer">  
           <img src={Dsquare} alt="" height={200}/>

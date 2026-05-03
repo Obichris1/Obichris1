@@ -13,7 +13,7 @@ const HeroSection = () => {
       </div>
 
       <div className='content'>
-        <h1>WEBSITE DEVELOPER</h1>
+        <h1>FULL-STACK WEB ENGINEER</h1>
       
 
       <div className='buttons'>

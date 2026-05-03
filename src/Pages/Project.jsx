@@ -1,5 +1,5 @@
 import React from 'react'
-import shred from '../Assets/Shred app.png'
+import ninemile from '../Assets/9mile.png'
 import shoesHive from '../Assets/ShoesHive.png'
 import Dsquare from '../Assets/Dsquare.png'
 import EsoE from '../Assets/EsoE.png'
@@ -15,6 +15,14 @@ const Project = () => {
    <div id='projects'>
       <div className='card-container'>
 
+      <Link className='project-card' to='https://9mileon.com/' target='_blank' rel="noopener noreferrer">  
+          <img src={ninemile} alt="" height={200}/>
+          {/* <div className='card-content'> */}
+          <p className='project-heading'>9mileon Financial services</p>
+          <p className= 'project-about'>Fintech Application</p>
+                
+      </Link>
+
       <Link className='project-card' to='https://ibank.esoebank.com/dashboard/' target='_blank' rel="noopener noreferrer">  
           <img src={EsoE} alt="" height={200}/>
           <p className='project-heading'>EsoE Microfinance Bank</p>
@@ -22,7 +30,7 @@ const Project = () => {
         
       </Link>
 
-      <Link className='project-card' to='https://joe-karter-store-2d6a.vercel.app/' target='_blank' rel="noopener noreferrer">  
+      <Link className='project-card' to='https://joekarter.com/' target='_blank' rel="noopener noreferrer">  
           <img src={JoeKarter} alt="" height={200}/>
           <p className='project-heading'>Joe Karter stores </p>
           <p className= 'project-about'>e-commerce application</p>
@@ -52,13 +60,7 @@ const Project = () => {
         
       </Link>
 
-      <Link className='project-card' to='https://shredapp.netlify.app/' target='_blank' rel="noopener noreferrer">  
-          <img src={shred} alt="" height={200}/>
-          {/* <div className='card-content'> */}
-          <p className='project-heading'>Shred</p>
-          <p className= 'project-about'>Fitness Application</p>
-                
-      </Link>
+   
 
       
 

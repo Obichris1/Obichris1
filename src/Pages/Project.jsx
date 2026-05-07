@@ -7,6 +7,7 @@ import myInsta from '../Assets/my-insta.png'
 import firebaseAuth from '../Assets/fire base auth app.png'
 import JoeKarter from '../Assets/joe-karter.png'
 import Fmcc from '../Assets/fmcc.png'
+import tandtdeals from '../Assets/tandtdeals.png'
 import './Project.css'
 import { Link } from 'react-router-dom'
 
@@ -27,6 +28,13 @@ const Project = () => {
           <img src={EsoE} alt="" height={200}/>
           <p className='project-heading'>EsoE Microfinance Bank</p>
           <p className= 'project-about'>A self-service client application for ESO-E mfb</p>
+        
+      </Link>
+
+      <Link className='project-card' to='https://tandtdeals.ng/' target='_blank' rel="noopener noreferrer">  
+          <img src={tandtdeals} alt="" height={200}/>
+          <p className='project-heading'>T and T deals store</p>
+          <p className= 'project-about'>e-commerce application</p>
         
       </Link>
 

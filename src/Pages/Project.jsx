@@ -38,7 +38,7 @@ const Project = () => {
         
       </Link>
 
-      <Link className='project-card' to='https://joekarter.com/' target='_blank' rel="noopener noreferrer">  
+      <Link className='project-card' to='https://joe-karter-store-xvs1.vercel.app/' target='_blank' rel="noopener noreferrer">  
           <img src={JoeKarter} alt="" height={200}/>
           <p className='project-heading'>Joe Karter stores </p>
           <p className= 'project-about'>e-commerce application</p>
